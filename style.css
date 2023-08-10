@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 1% 2%;
+}
+/*Edição SECTION
+Começa aqui:  */
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 45% 55%;
+}
+
+#textSection {
+    text-align: center;
+    background-color: rgba(81, 73, 136, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 100%;
+}
+
+#textSection h1 {
+    font-size: 70px;
+    color: rgba(243, 198, 31, 1);
+    margin-bottom: 0;
+}
+
+#textSection h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+#textSection h3 {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+#cout {
+    display: grid;
+    grid-auto-flow: column;
+    color: rgba(81, 73, 136, 1);
+    height: 90px;
+}
+
+#cout h1 {
+    font-size: 70px;
+    margin: 30px 0px 0px 0px;
+}
+
+#textCout h2 {
+    margin: 0;
+}
+
+section #videoSection {
+    margin-left: 2%;
+    display: grid;
+    gap: 25px;
+
+}
+
+section #videoSection h2 {
+    color: rgba(227, 56, 129, 1);
+    font-size: 30px;
+}
+
+section #videoSection .alnCoutTxt {
+    padding-left: 3%;
+}
+
+section video {
+    width: 97%;
+}
+/*Termina aqui ....*/
+
+/*FOOTER COMPRA*/
+#compra {
+    margin-bottom: 70px;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+}
+
+/*Edição FOOTER
+Começa aqui:  */
+#textFooter {
+    color: #f3c61f;
+    margin-left: 125px;
+    font-size: 18px;
+}
+
+#ingressos {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+#btnFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#btnFooter button {
+    background-color: rgba(81, 73, 136, 1);
+    color: white;
+    width: 650px;
+    height: 150px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#btnFooter button:hover {
+    background-color: #3c3761;
+    transition: 0.5s;
+
+    color: #f3c61f;
+    cursor: pointer;
+
+    transform: translateY(1px);
+    transform: translateY(-1px);
+    transition-duration: 0.8s;
+    box-shadow: 0px 15px 20px #0d303f69;
+}
+
+.ing:hover {
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    cursor: pointer;
+}
+/*Termina aqui...*/
+
+
+/*Feito com as adiçoes do JS
+Começa aqui: */
+.card-highlight {
+    box-shadow: 10px 10px grey;
+}
+
+.card-selected {
+    border: 5px solid green;
+}
+/*Termina aqui...*/
+
+/*FOOTER CONTATO*/
+#contato {
+    background-color: #f3c61f;
+    height: 150px;
+
+    display: flex;
+    justify-content: center
+    
+}
+
+#contato #a{
+    background-color: rgba(81, 73, 136, 1);
+    color: white;
+
+    width: 400px;
+    height: 60px;
+
+    border-radius: 10px;
+    border: 0;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 50px 0px 0px 50px;
+    padding-left: 15px;
+}
+#contato #b {
+    background-color: rgba(81, 73, 136, 1);
+    color: white;
+
+    width: 120px;
+    height: 60px;
+
+    border-radius: 10px;
+    border: 0;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.856);
+}
+#contato #b:hover {
+    background-color: #3c3761;
+    transition: 0.5s;
+
+    color: #f3c61f;
+    cursor: pointer;
+
+    box-shadow: 0px 15px 20px #c09807a8;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrjDNC - CCXP22 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/CCXP.svg" alt="Erro">
+    </header>
+    <section>
+        <div id="textSection">
+            <h1>REVIVA O ÉPICO</h1>
+            <h2> DE 01 A 04 DE DEZEMBRO</h2>
+            <h3>
+                Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                em casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos <br>
+                corredores.
+            </h3>
+        </div>
+        <div id="videoSection">
+            <div  class="alnCoutTxt" id="cout">
+                <div class="divCout">
+                    <h1 id="dia"></h1>
+                </div>
+                <div class="divCout">
+                    <h1 id="hora"></h1>
+                </div>
+                <div class="divCout">
+                    <h1 id="minuto"></h1>
+                </div>
+                <div class="divCout">
+                    <h1 id="segundo"></h1>
+                </div> 
+                <!-- <div class="textCout" id="descCout" >
+                    <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+                </div> -->
+            </div>
+            <div class="alnCoutTxt" id="textCout">
+                <h2>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h2>
+            </div>
+            <div id="video">
+                <video width="700px" id="arlVideo" controls autoplay>
+                    <source src="video/Arlequina.mp4"  type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <div id="textFooter"><h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2></div>
+    <footer id="compra">
+        <div id="ingressos">
+            <!-- <img src="img/ingressos.svg" alt="Erro"> -->
+            <img 
+            class="ing" calss ="card-selected" 
+            src="imgInd/ing1.svg" 
+            onclick="selectCard('#quinta')"
+            onmouseover="highLightCard('#quinta')" 
+            onmouseout="highLightCard('#quinta')" 
+            id="quinta" 
+            alt="Erro">
+            
+            <img
+            class="ing" calss ="card-selected" 
+            src="imgInd/ing2.svg" 
+            onclick="selectCard('#sexta')"
+            onmouseover="highLightCard('#sexta')"
+            onmouseout="highLightCard('#sexta')" 
+            id="sexta" 
+            alt="Erro">
+
+            <img 
+            class="ing" calss ="card-selected" 
+            src="imgInd/ing3.svg" 
+            onclick="selectCard('#sabado')"
+            onmouseover="highLightCard('#sabado')" 
+            onmouseout="highLightCard('#sabado')" 
+            id="sabado" 
+            alt="Erro">
+
+            <img 
+            class="ing" calss ="card-selected" 
+            src="imgInd/ing4.svg" 
+            onclick="selectCard('#domingo')"
+            onmouseover="highLightCard('#domingo')" 
+            onmouseout="highLightCard('#domingo')" 
+            id="domingo" 
+            alt="Erro">
+
+        </div>
+        <div id="btnFooter">
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
+        </div>
+    </footer> 
+    <footer id="contato">
+        <form action="">
+            <input type="email"  placeholder="Seu email" id="a" required>
+            <input type="submit" id="b" value="SUBMIT">
+        </form>
+    </footer>
+    <script src="coutdown.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
