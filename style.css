@@ -135,8 +135,8 @@ Começa aqui:  */
 }
 
 .ing:hover {
-    transform: translateY(-10px);
-    transition-duration: 1s;
+    transform: translateY(-5px);
+    transition-duration: 0.2s;
     cursor: pointer;
 }
 /*Termina aqui...*/
