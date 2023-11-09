@@ -1,5 +1,7 @@
 # LP-Lancamento-CCXP
 Projeto de desenvolvimento | Página anúncio de evento, com timer, e outras funções. 
+link site: https://lp-lancamento-ccxp.vercel.app
+
 
 - Projeto proposto pela DNC, com base nas aulas de JS, e aprimorar HTML e CSS.
 - Inicialmente feito apenas com o CountDown
